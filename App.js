@@ -20,6 +20,7 @@ export default function App() {
           <CountdownCircleTimer
             isPlaying={isPlaying}
             duration={1500}
+            colors={[['#004777', 0.33], ['#F7B801', 0.33], ['#A30000']]}
           >
             {({ remainingTime, color }) => (
               <Text style={{ color, fontSize: 40 }}>
